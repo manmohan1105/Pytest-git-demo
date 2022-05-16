@@ -2,6 +2,7 @@ from asyncio.log import logger
 import os
 import pytest
 import numpy as np
+import pandas as pd
 try:
     from test.temp_env_var import TEMP_ENV_VARS
 except ImportError:
