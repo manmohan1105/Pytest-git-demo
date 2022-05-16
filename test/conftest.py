@@ -1,7 +1,7 @@
 from asyncio.log import logger
 import os
 import pytest
-
+import numpy as np
 try:
     from test.temp_env_var import TEMP_ENV_VARS
 except ImportError:
